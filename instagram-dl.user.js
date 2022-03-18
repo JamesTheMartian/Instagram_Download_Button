@@ -118,7 +118,7 @@
         // check profile
         if (document.getElementsByClassName("custom-btn").length === 0) {
             if (document.querySelector(profileSelector)) {
-                addCustomBtn(document.querySelector(profileSelector), "black", append2Header);
+                addCustomBtn(document.querySelector(profileSelector), "white", append2Header);
             }
         }
 
@@ -127,7 +127,7 @@
         for (let i = 0; i < articleList.length; i++) {
             if (articleList[i].querySelector(sharePostSelector) &&
                 articleList[i].getElementsByClassName("custom-btn").length === 0) {
-                addCustomBtn(articleList[i].querySelector(sharePostSelector), "black", append2Post);
+                addCustomBtn(articleList[i].querySelector(sharePostSelector), "white", append2Post);
             }
         }
 
